@@ -12,7 +12,7 @@ export default function LinkHub(): JSX.Element {
 
   const shareWhatsapp = (): void => {
     const url = typeof window !== 'undefined' ? window.location.href : '';
-    const shareUrl = url.endsWith('/') ? url + pdfName : url + '/' + pdfName;
+    const shareUrl = url.endsWith('/') ? url.slice(0, -1) : url;
 
     const message = encodeURIComponent(
       `Porque o segredo do Preto Chefe nunca foi só a receita. É o carinho que vai em cada concha! Peça já o seu e experimente essa história de sabor.\n\nConfira o cardápio completo aqui: ${shareUrl}`
