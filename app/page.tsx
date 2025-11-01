@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaShareAlt } from 'react-icons/fa'; // importando ícone FontAwesome via react-icons
 
 export default function LinkHub(): JSX.Element {
-  const pdfName = 'a3f9b27c51d8e4f2.pdf';
+  const pdfName = 'Cardápio%20Preto%20Chefe.pdf';
   const pdfPath = `/files/${pdfName}`;
 
   const shareWhatsapp = (): void => {
@@ -27,7 +27,7 @@ export default function LinkHub(): JSX.Element {
         <div className="flex flex-col items-center gap-4">
           <div className="relative w-28 h-28 rounded-full overflow-hidden">
             <Image
-              src="/avatar-placeholder.png"
+              src="/Logotipo%20do%20Chef%20em%20Hexágono.png"
               alt="avatar"
               fill
               sizes="112px"
