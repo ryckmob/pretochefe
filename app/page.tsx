@@ -24,24 +24,6 @@ export default function LinkHub(): JSX.Element {
 
   return (
     <>
-      <Head>
-        <title>Preto Chefe</title>
-        <meta name="description" content="Sabores autênticos e irresistíveis do Preto Chefe. Peça já!" />
-        <link rel="icon" href="/Logotipo%20do%20Chef%20em%20Hexágono.png" />
-
-        {/* Meta tags para redes sociais */}
-        <meta property="og:title" content="Preto Chefe" />
-        <meta property="og:description" content="Porque o segredo do Preto Chefe nunca foi só a receita. É o carinho que vai em cada concha!" />
-        <meta property="og:image" content="/vizualization.png" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://seusite.com" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Preto Chefe" />
-        <meta name="twitter:description" content="Sabores autênticos e irresistíveis do Preto Chefe. Peça já!" />
-        <meta name="twitter:image" content="/vizualization.png" />
-      </Head>
-
       <main className="min-h-screen bg-neutral-50 flex items-center justify-center p-6">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-6">
           <div className="flex flex-col items-center gap-4">
