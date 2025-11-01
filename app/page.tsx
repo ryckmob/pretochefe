@@ -14,7 +14,7 @@ export default function LinkHub(): JSX.Element {
     const shareUrl = url.endsWith('/') ? url + pdfName : url + '/' + pdfName;
 
     const message = encodeURIComponent(
-      `Porque o segredo do Preto Chefe nunca foi só a receita. É o carinho que vai em cada concha! Peça já o seu e experimente essa história de sabor.\n\n\nConfira o cardápio completo aqui: ${shareUrl}`
+      `Porque o segredo do Preto Chefe nunca foi só a receita. É o carinho que vai em cada concha! Peça já o seu e experimente essa história de sabor.\n\nConfira o cardápio completo aqui: ${shareUrl}`
     );
 
     const whatsappLink = `https://wa.me/?text=${message}`;
