@@ -52,7 +52,7 @@ export default function LinkHub(): JSX.Element {
               Faça seu pedido
             </a>
             <Link
-              href={pdfPath}
+              href={"/cardapio"}
               className="block w-full text-center py-3 rounded-xl bg-neutral-900 text-white hover:bg-neutral-800 transition"
             >
               Cardápio Preto Chefe
